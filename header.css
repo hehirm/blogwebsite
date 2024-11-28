@@ -1,25 +1,31 @@
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   overflow: hidden;
   background-color: #333;
 }
 
-li {
-  float: right;
+nav ul li {
+  margin: 0 15px;
 }
 
-li a {
-  display: block;
+nav ul li a {
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-li a:hover {
+nav ul li a:hover {
   background-color: #111;
+}
+
+nav ul li:first-child {
+  margin-right: auto;
 }
 
 
